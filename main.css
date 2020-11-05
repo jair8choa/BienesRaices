@@ -51,7 +51,6 @@ p{
   margin: 0 0;
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 2;
 }
 
 .header__item{
@@ -141,15 +140,39 @@ p{
   background-color: #f5f5f5;
   border: 0.1rem solid  #c0c0c0;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .main__casa > img{
   width: 100%;
 }
 
+.main__casa > h3{
+  margin-left: 1rem;
+}
+
+.main__casa > p{
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.main_precio{
+  color: #71b11f;
+}
+
+.main__casa > button{
+  background-color: #df8716;
+  border: 1rem solid #df8716;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
 .main__ver-mas{
   align-self: flex-end;
-  margin-right: 4.5rem;
+  margin-right: 5rem;
 
   background-color: #71b11f;
   border: 1rem solid #71b11f;
