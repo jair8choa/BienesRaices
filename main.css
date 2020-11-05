@@ -96,13 +96,27 @@ p{
 }
 
 .block-msn__art{
-  width: calc(33% - 10rem);
-  min-width: 32rem;
-  height: 27rem;
+  width: 28rem;
+  /* min-width: 32rem; */
+  height: 29rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.block-msn__art > img{
+  /* margin: 1.5rem 0; */
+}
+
+.block-msn__art > h3{
+  /* margin: 1.5rem 0; */
+}
+
+.block-msn__art > p{
+  /* margin: 1.5rem 0; */
+  text-align: center;
+  align-self: flex-end;
 }
 
 /* ///////////// */
@@ -118,18 +132,32 @@ p{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 
 .main__casa{
-  width: calc(33% - 10rem);
-  min-width: 32rem;
+  width: 30rem;
   height: 40rem;
+  background-color: #f5f5f5;
+  border: 0.1rem solid  #c0c0c0;
+  margin-bottom: 2rem;
 }
 
 .main__casa > img{
   width: 100%;
 }
 
+.main__ver-mas{
+  align-self: flex-end;
+  margin-right: 4.5rem;
+
+  background-color: #71b11f;
+  border: 1rem solid #71b11f;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
 
 /* //////////////////// */
 
@@ -151,15 +179,15 @@ p{
 
 .contacto > h3{
   font-size: 3rem;
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 .contacto > p{
   text-align: left;
   margin: 2rem 0;
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 .contacto > button{
-  margin-left: 5rem;
+  margin-left: 2rem;
 
   background-color: #df8716;
   border: 0.5rem solid #df8716;
