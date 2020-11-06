@@ -218,3 +218,63 @@ p{
   text-decoration: none;
   font-size: 2rem;
 }
+
+/* ///////////////////////// */
+
+.multimedia{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blog{
+  width: 60%;
+  min-width: 32rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.articulo{
+  width: 90%;
+  min-width: 32rem;
+  display: flex;
+  text-align: start;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.articulo img{
+  width: 20rem;
+}
+
+.articulo h3{
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.articulo p{
+  text-align: start;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.articulo span{
+  color: #71b11f;
+}
+
+.testimonio{
+  width: 40%;
+  min-width: 32rem;
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  flex-grow: 2;
+}
+
+.testimonio > article{
+  width: 80%;
+  min-width: 30rem;
+  background-color: #71b11f;
+  margin: 0 auto;
+  padding: 4rem;
+  color: white;
+}
