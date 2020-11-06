@@ -43,7 +43,6 @@ p{
   align-items: center;
   flex-wrap: wrap;
   margin-top: 3rem;
-  padding: 0 4rem;
 }
 
 .header__list{
@@ -75,7 +74,6 @@ p{
   color: white;
   font-size: 2.8rem;
   line-height: 5rem;
-  margin-left: 3rem;
   margin-bottom: 2rem;
 }
 /* //////////////////// */
@@ -90,7 +88,7 @@ p{
 .block-msn > div{
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -129,7 +127,7 @@ p{
 .main > div{
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 1rem;
 }
@@ -172,8 +170,6 @@ p{
 
 .main__ver-mas{
   align-self: flex-end;
-  margin-right: 5rem;
-
   background-color: #71b11f;
   border: 1rem solid #71b11f;
   color: white;
@@ -188,7 +184,6 @@ p{
   width: 100%;
   height: 40vh;
   display: flex;
-  padding-left: 1.95%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -202,16 +197,12 @@ p{
 
 .contacto > h3{
   font-size: 3rem;
-  margin-left: 2rem;
 }
 .contacto > p{
   text-align: left;
   margin: 2rem 0;
-  margin-left: 2rem;
 }
 .contacto > button{
-  margin-left: 2rem;
-
   background-color: #df8716;
   border: 0.5rem solid #df8716;
   color: white;
@@ -236,7 +227,7 @@ p{
 }
 
 .articulo{
-  width: 90%;
+  width: 100%;
   min-width: 32rem;
   display: flex;
   text-align: start;
@@ -262,19 +253,89 @@ p{
   color: #71b11f;
 }
 
+
 .testimonio{
   width: 40%;
   min-width: 32rem;
   text-align: center;
-  background-color: rgb(238, 238, 238);
   flex-grow: 2;
 }
 
 .testimonio > article{
-  width: 80%;
+  width: 90%;
   min-width: 30rem;
   background-color: #71b11f;
   margin: 0 auto;
   padding: 4rem;
   color: white;
+  font-size: 4rem;
+  border-radius: 2rem;
+}
+
+.testimonio p, blockquote{
+  font-size: 1.8rem;
+  text-align: start;
+  line-height: 4rem;
+}
+
+.testimonio p{
+  text-align: right;
+  font-weight: bold;
+}
+
+#comilla{
+  font-size: 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ////////////////////// */
+
+.footer{
+  width: 100vw;
+  height: 5rem;
+  background-color: #323232;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.footer  ul{
+  height: 100%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer ul > li{
+  margin-right: 1rem;
+}
+
+#derechos{
+  margin: 0;
+}
+
+.container{
+  padding: 0 5rem;
+}
+
+
+@media (max-width: 768px){
+  .container{
+    padding: 0 1rem;
+  }
+  .block-msn > div{
+    justify-content: center;
+  }
+
+  .main > div{
+    justify-content: center;
+  }
+
+  .footer  ul{
+    font-size: 1.2rem;
+  }
 }
