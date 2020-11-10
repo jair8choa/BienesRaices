@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+</head>
+<body>
+  <header class="header">
+    <div>
+      <img src="./img/logo.svg" alt="Logo" class="header__img">
+      <ul class="header__list">
+        <li class="header__item"><a href="">Nosotros</a></li>
+        <li class="header__item"><a href="">Anuncios</a></li>
+        <li class="header__item"><a href="">Blog</a></li>
+        <li class="header__item"><a href="">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <h2>Contacto</h2>
+    <img src="./img/destacada3.jpg" alt="">
+    <h2>Llena el Formulario de Contacto</h2>
+    <form action="">
+      <section>
+        <h3>Informacion Personal</h3>
+        <label for="nombre">
+          <span>Nombre:</span>
+          <input type="text" id="nombre">
+        </label> <br>
+        <label for="email">
+          <span>E-mail:</span>
+          <input type="email" id="email">
+        </label><br>
+        <label for="telefono">
+          <span>Telefono:</span>
+          <input type="tel" id="telefono">
+        </label><br>
+        <label for="mensaje">
+          <span>Mensaje:</span>
+          <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+        </label><br>
+      </section>
+      <section>
+        <h3>Informacion sobre Propiedad</h3>
+        <label for="vendocomp">
+          <span>Vender o Comprar:</span>
+          <select name="" id="vendocomp">
+            <option value="vender">Vender</option>
+            <option value="comprar">Comprar</option>
+          </select>
+        </label><br>
+        <label for="presupuesto">
+          <span>Presupuesto:</span>
+          <input type="number" name="" id="presupuesto">
+        </label><br>
+      </section>
+      <section>
+        <h3>Contacto</h3>
+        <label for="telfocorr">
+          <span>Como desea ser Contactado:</span>
+          <label for="">
+            <input type="checkbox" name="" id="telfocorr" value="telefono">Telefono</label>
+            <input type="checkbox" name="" id="" value="correo">Correo</label>
+          </label><br>
+        </label>
+        <span>Si escojio Telefono, elija la Fecha y Hora</span>
+        <label for="fecha">
+          <span>Fecha:</span>
+          <input type="date" id="fecha">
+        </label><br>
+        <label for="hora">
+          <span>Hora:</span>
+          <input type="time" name="" id="hora">
+        </label><br>
+        <input type="submit" value="Enviar">
+      </section>
+    </form>
+  </main>
+  <footer class="footer container">
+    <ul>
+      <li>Nosotros</li>
+      <li>Anuncios</li>
+      <li>Blog</li>
+      <li>Contacto</li>
+    </ul>
+    <ul>
+      <li id="derechos">Todos Los Derechos Reservados</li>
+    </ul>
+  </footer>
+</body>
+</html>
