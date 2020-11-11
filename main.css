@@ -134,7 +134,7 @@ p{
 
 .main__casa{
   width: 30rem;
-  height: 40rem;
+  height: auto;
   background-color: #f5f5f5;
   border: 0.1rem solid  #c0c0c0;
   margin-bottom: 2rem;
@@ -148,15 +148,20 @@ p{
 
 .main__casa > h3{
   margin-left: 1rem;
+  font-weight: 100;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .main__casa > p{
   text-align: left;
   margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 .main_precio{
   color: #71b11f;
+  font-weight: bold;
 }
 
 .main__casa > button{
@@ -176,6 +181,19 @@ p{
   text-decoration: none;
   font-size: 1.5rem;
   margin-bottom: 2rem;
+}
+
+.main__content-iconos{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding: 0 7rem;
+}
+
+.main__iconos{
+  width: 2.5rem;
 }
 
 /* //////////////////// */
@@ -258,7 +276,6 @@ p{
   width: 40%;
   min-width: 32rem;
   text-align: center;
-  flex-grow: 2;
 }
 
 .testimonio > article{
@@ -270,10 +287,12 @@ p{
   color: white;
   font-size: 4rem;
   border-radius: 2rem;
+  display: flex;
+  align-items: flex-start;
 }
 
 .testimonio p, blockquote{
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   text-align: start;
   line-height: 4rem;
 }
@@ -283,9 +302,8 @@ p{
   font-weight: bold;
 }
 
-#comilla{
-  font-size: 5rem;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.testimonio img{
+  width: 4rem;
 }
 
 /* ////////////////////// */
