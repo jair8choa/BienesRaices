@@ -30,6 +30,10 @@ p{
   line-height: 2rem;
 }
 
+button{
+  cursor: pointer;
+}
+
 .header{
   width: 100%;
   height: 100vh;
@@ -266,7 +270,18 @@ p{
   margin-left: 1rem;
   margin-bottom: 1rem;
   color: #323232;
+  cursor: pointer;
 }
+
+.articulo h3::after{
+  content: ' ';
+  height: 0.5rem;
+  width: 50%;
+  background-color: #71b11f;
+  display: block;
+  margin-top: 1rem;
+}
+
 .articulo p{
   text-align: start;
   margin-left: 1rem;
